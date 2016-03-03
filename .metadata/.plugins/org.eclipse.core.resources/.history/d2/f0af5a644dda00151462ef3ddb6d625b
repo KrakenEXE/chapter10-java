@@ -1,0 +1,44 @@
+package projectOne;
+
+import java.util.Scanner;
+
+public class TestScores {
+
+	private static int[] _testScores = new int[3];
+	private static double _average;
+	
+	
+	public double get_average() {
+		return _average;
+	}
+
+
+	public void set_average(double _average) {
+		this._average = _average;
+	}
+
+
+	public TestScores(int[] input){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double superGrab=0;
+		for(int i = 0; i < _testScores.length; i++){
+			System.out.print("Enter a digit from 0 to 100 >> ");
+			superGrab = scanner.nextDouble();
+			
+			if(superGrab > 100 || superGrab <0){
+				throw new IllegalArgumentException();
+			}
+			else{
+				TestScores _testScores[i] = new TestScore();
+			}
+			
+		}
+
+	}
+
+}

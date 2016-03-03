@@ -1,0 +1,15 @@
+package projectThree;
+
+public class NegativeUnits {
+
+	
+    //Parameterless Constructor
+    public InvalidTestScore() {}
+
+    //Constructor that accepts a message
+    public InvalidTestScore(String message)
+    {
+       super(message);
+    }
+    
+}

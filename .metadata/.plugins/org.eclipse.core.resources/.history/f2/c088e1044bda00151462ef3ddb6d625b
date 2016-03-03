@@ -1,0 +1,17 @@
+package projectOne;
+
+public class TestScores {
+
+	private int[] testScores = new int[3];
+	
+	public TestScores(int[] yess){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

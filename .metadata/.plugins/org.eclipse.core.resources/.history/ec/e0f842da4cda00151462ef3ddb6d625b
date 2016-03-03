@@ -1,0 +1,34 @@
+package projectOne;
+
+public class TestScores {
+
+	private static int[] _testScores = new int[3];
+	private static double _average;
+	
+	
+	public double get_average() {
+		return _average;
+	}
+
+
+	public void set_average(double _average) {
+		this._average = _average;
+	}
+
+
+	public TestScores(int[] input){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		for(int i = 0; i < _testScores.length; i++){
+			System.out.print("Enter a digit from 0 to 100 >> ");
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package projectOne;
+
+public class TestScores {
+
+	public TestScores(int[] yess){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
