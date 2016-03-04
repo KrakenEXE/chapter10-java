@@ -1,7 +1,7 @@
 package projectThree;
 
 import java.util.Scanner;
-import java.text.NumberFormat;
+import java.text.DecimalFormat;
 
 public class applyDiscount {
 
@@ -9,7 +9,7 @@ public class applyDiscount {
 		double price;
 		double discount = 1;
 		Scanner scanner = new Scanner( System.in);
-		NumberFormat defaultFormat = NumberFormat.getCurrencyInstance();
+		DecimalFormat defaultFormat = DecimalFormat.getCurrencyInstance();
 		
 		System.out.print("Enter units sold >> ");
 		double unitsSold = Double.parseDouble (scanner.nextLine());
